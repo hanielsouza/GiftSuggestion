@@ -1,3 +1,5 @@
+using GiftSuggestion.Business;
+using GiftSuggestion.Business.Implementations;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,6 +34,8 @@ namespace GiftSuggestion
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "GiftSuggestion", Version = "v1" });
             });
+
+            services.AddScoped<IGiftBusiness, GiftBusinessImplementations>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
