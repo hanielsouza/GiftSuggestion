@@ -14,11 +14,11 @@
         Bebes = 1,
         BelezaECuidadoPessoal = 2,
         BrinquedoseHobbies = 3,
-        Calcados-RoupasEBolsas = 4,
+        CalcadosRoupasEBolsas = 4,
         CamerasEAcessorios = 5,
         CelularesETelefones = 6,
         Eletrodomesticos = 7, 
-        Eletronicos-AudioEVIdeo = 8,
+        EletronicosAudioEVIdeo = 8,
         EsportesEFitness = 9,
         Ferramentas = 10,
         Games = 11,
@@ -26,8 +26,8 @@
         Ingressos = 13,
         InstrumentosMusicais = 14,
         JoiasERelogios = 15,
-        Livros-RevistasEComics = 16,
-        Musica-FilmesESeriados = 17,
+        LivrosRevistasEComics = 16,
+        MusicaFilmesESeriados = 17,
         Saude = 18,
         Servicos = 19,
 
@@ -49,8 +49,8 @@
         //Bebes
         AlimentacaoEAmamentacao = 1000,
         AlimentosParaBebes = 1001,
-        AndadoresEMiniVeIculos  = 1002,
-        BanhoDoBebe  = 1003,
+        AndadoresEMiniVeIculos = 1002,
+        BanhoDoBebe = 1003,
         BrinquedosParaBebes = 1004,
         Cercadinho = 1005,
         ChupetasEMordedores = 1006,
@@ -61,7 +61,7 @@
         RoupasDeBebe = 1011,
         SaudeDoBebe = 1012,
         SegurancaParaBebe = 1013,
-        Outros = 1014,
+        BebesOutros = 1014,
 
         //Beleza e Cuidado Pessoal
         ArtefatosParaCabelo = 2000,
@@ -76,11 +76,11 @@
         Maquiagem = 2009,
         PerfumesEFragrancias = 2010,
         TratamentosDeBeleza = 2011,
-        Outros = 2012,
+        OutrosBelezaECuidadoPessoal = 2012,
 
-        //Brinquedos e Hobbies
+        //BrinquedosEHobbies
         AlbunsEFigurinhas = 3000,
-        Anti-stressEEngenho = 3001,
+        AntistressEEngenho = 3001,
         ArLivreEPlayground = 3002,
         ArtesEAtividades = 3003,
         BonecosEBonecas = 3004,
@@ -89,7 +89,7 @@
         BrinquedosDePegadinhas = 3007,
         BrinquedosDePraiaEPiscina = 3008,
         BrinquedosEletronicos = 3009,
-        BrinquedosParaBebes = 3010,
+        BrinquedosEHobbiesParaBebes = 3010,
         CasinhasEBarracas = 3011,
         FantochesEMarionetas = 3012,
         Hobbies = 3013,
@@ -103,9 +103,9 @@
         Pelucias = 3021,
         PiscinasEInflaveis = 3022,
         VeIculosDeBrinquedo = 3023,
-        Outros = 3024,
+        OutrosBrinquedosEHobbies = 3024,
 
-        //Calcados-RoupasEBolsas
+        //CalcadosRoupasEBolsas
         AcessoriosDeModa = 4000,
         Agasalhos = 4001,
         BermudasEShorts = 4002,
@@ -127,11 +127,11 @@
         Saias = 4018,
         Ternos = 4019,
         Vestidos = 4020,
-        Outros = 4021,
+        OutrosCalcadosRoupasEBolsas = 4021,
 
         //CamerasEAcessorios
         AcessoriosParaCameras = 5000,
-        AlbunsEPorta-retratos = 5001,
+        AlbunsEPortaretratos = 5001,
         Cabos = 5002,
         Cameras = 5003,
         DronesEAcessorios = 5004,
@@ -140,7 +140,7 @@
         InstrumentosOpticos = 5007,
         LentesEFiltros = 5008,
         PecasParaCameras = 5009,
-        Outros = 5010,
+        OutrosCamerasEAcessorios = 5010,
 
         //CelularesETelefones
         AcessoriosParaCelulares = 6000,
@@ -150,7 +150,7 @@
         SmartwatchesEAcessorios = 6004,
         TarifadoresECabines = 6005,
         TelefoniaFixaESemFio = 6006,
-        Outros = 6007,
+        OutrosCelularesETelefones = 6007,
 
         //Eletrodomesticos
         ArEVentilacao = 7000,
@@ -160,18 +160,18 @@
         Lavadores = 7004,
         PequenosEletrodomesticos = 7005,
         Refrigeracao = 7006,
-        Outros = 7007,
+        OutrosEletrodomesticos = 7007,
 
-        //Eletronicos-AudioEVIdeo
+        //EletronicosAudioEVIdeo
         AcessoriosParaAudioEVIdeo = 8000,
         AcessoriosParaTV = 8001,
         AparelhosDVDEBluray = 8002,
         Audio = 8003,
         BolsasEEstojos = 8004,
-        Cabos = 8005,
+        AudioEVIdeoCabos = 8005,
         ComponentesEletronicos = 8006,
         ControlesRemotos = 8007,
-        DronesEAcessorios = 8008
+        AudioEVIdeoDronesEAcessorios = 8008,
         MediaStreaming = 8009,
         PecasParaTV = 8010,
         PilhasECarregadores = 8011,
@@ -184,8 +184,8 @@
         Badminton = 9001,
         Baseball = 9002,
         Basquete = 9003,
-        Camping-CacaEPesca = 9004,
-        Canoas-CaiaquesEInflaveis = 9005,
+        CampingCacaEPesca = 9004,
+        CanoasCaiaquesEInflaveis = 9005,
         Ciclismo = 9006,
         Equitacao = 9007,
         Esgrima = 9008,
@@ -196,10 +196,10 @@
         Golfe = 9013,
         Handebol = 9014,
         Hockey = 9015,
-        JogosDeSalao = 9016,
+        EsporteJogosDeSalao = 9016,
         Kitesurf = 9017,
         Mergulho = 9018,
-        ModaFitness = 9019,
+        FitnessModaFitness = 9019,
         MonitoresEsportivos = 9020,
         Natacao = 9021,
         Paintball = 9022,
@@ -207,7 +207,7 @@
         PatInESkateboard = 9024,
         PatinetesEScooters = 9025,
         PilatesEYoga = 9026,
-        Rapel-MontanhismoEEscalada = 9027,
+        RapelMontanhismoEEscalada = 9027,
         Rugby = 9028,
         Slackline = 9029,
         SuplementosEShakers = 9030,
@@ -218,7 +218,7 @@
         Volei = 9035,
         WakeboardEEsquIAcuatico = 9036,
         Windsurfe = 9037,
-        Outros = 9038,
+        OutrosEsportesEFitness = 9038,
 
         //Ferramentas
         AcessoriosParaFerramentas = 10000,
@@ -229,7 +229,7 @@
         FerramentasParaJardim = 10005,
         FerramentasPneumaticas = 10006,
         MedicoesEInstrumentacao = 10007,
-        Outros = 10008,
+        OutrosFerramentas = 10008,
 
         //Games
         AcessoriosParaConsoles = 11000,
@@ -238,28 +238,28 @@
         FliperamasEArcade = 11003,
         PecasParaConsoles = 11004,
         VideoGames = 11005,
-        Outros = 11006,
+        OutrosGames = 11006,
 
         //Informatica
-        AcessoriosDeAntiestatica = 12000
-        AcessoriosParaPCGaming = 12001
-        Armazenamento = 12002
-        CabosEHubsUSB = 12003
-        ComponentesParaPC = 12004
-        ConectividadeERedes = 12005
-        EstabilizadoresENoBreaks = 12006
-        Impressao = 12007
-        LeitoresEScanners = 12008
-        LimpezaDePCs = 12009
-        MonitoresEAcessorios = 12010
-        PalmsEHandhelds = 12011
-        PCDeMesa = 12012
-        PerifericosParaPC = 12013
-        PortateisEAcessorios = 12014
-        ProjetoresETelas = 12015
-        Software = 12016
-        TabletsEAcessorios = 12017
-        Outros = 12018
+        AcessoriosDeAntiestatica = 12000,
+        InformaticaAcessoriosParaPCGaming = 12001,
+        Armazenamento = 12002,
+        CabosEHubsUSB = 12003,
+        ComponentesParaPC = 12004,
+        ConectividadeERedes = 12005,
+        EstabilizadoresENoBreaks = 12006,
+        Impressao = 12007,
+        LeitoresEScanners = 12008,
+        LimpezaDePCs = 12009,
+        MonitoresEAcessorios = 12010,
+        PalmsEHandhelds = 12011,
+        PCDeMesa = 12012,
+        PerifericosParaPC = 12013,
+        PortateisEAcessorios = 12014,
+        InformaticaProjetoresETelas = 12015,
+        Software = 12016,
+        TabletsEAcessorios = 12017,
+        OutrosInformatica = 12018,
 
         //Ingressos
         EventosABenefIcio = 13000,
@@ -271,18 +271,18 @@
         OutrosIngressos = 13006,
 
         //InstrumentosMusicais
-        BateriasEPercussao = 14000
-        CaixasDeSom = 14001
-        EquipamentoParaDJs = 14002
-        EstudioDeGravacao = 14003
-        InstrumentosDeCorda = 14004
-        InstrumentosDeSopro = 14005
-        Metronomos = 14006
-        MicrofonesEAmplificadores = 14007
-        PartiturasELetras = 14008
-        PedaisEAcessorios = 14009
-        PianosETeclados = 14010
-        Outros = 14011
+        BateriasEPercussao = 14000,
+        CaixasDeSom = 14001,
+        EquipamentoParaDJs = 14002,
+        EstudioDeGravacao = 14003,
+        InstrumentosDeCorda = 14004,
+        InstrumentosDeSopro = 14005,
+        Metronomos = 14006,
+        MicrofonesEAmplificadores = 14007,
+        PartiturasELetras = 14008,
+        PedaisEAcessorios = 14009,
+        PianosETeclados = 14010,
+        OutrosInstrumentosMusicais = 14011,
 
 
         //JoiasERelogios
@@ -294,23 +294,23 @@
         Piercings = 15005,
         PortaJoias = 15006,
         Relogios = 15007,
-        Outros = 15008,
+        OutrosJoiasERelogios = 15008,
 
-        //Livros-RevistasEComics
+        //LivrosRevistasEComics
         Catalogos = 16000,
         EBOOKS = 16001,
         HQs = 16002,
         Livros = 16003,
         Manga = 16004,
         Revistas = 16005,
-        Outros = 16006,
+        OutrosLivrosRevistasEComics = 16006,
 
-        //Musica-FilmesESeriados
+        //MusicaFilmesESeriados
         Cursos = 17000,
         Filmes = 17001,
         Musica = 17002,
         Seriados = 17003,
-        Outros = 17004,
+        OutrosMusicaFilmesESeriados = 17004,
 
         //Saude
         CuidadodaSaude = 18000,
@@ -320,25 +320,26 @@
         Ortopedia = 18004,
         SuplementosAlimentares = 18005,
         TerapiasAlternativas = 18006,
-        Outros = 18007,
+        OutrosSaude = 18007,
 
         //Servicos
-        AcademiaEEsportes = 19000
-        Animais = 19001
-        Beleza-EsteticaEBemEstar = 19002
-        Educacao = 19003
-        FestasEEventos = 19004
-        Gastronomia = 19005
-        GraficasEImpressao = 19006
-        Lar = 19007
-        MarketingEInternet = 19008
-        OutrosProfissionais = 19009
-        OutrosServicos = 19010
-        Saude = 19011
-        SuporteTecnico = 19012
-        VeIculosETransportes = 19013
-        Vestuario = 19014
-        ViagensETurismo = 19015
+        AcademiaEEsportes = 19000,
+        Animais = 19001,
+        BelezaEsteticaEBemEstar = 19002,
+        Educacao = 19003,
+        FestasEEventos = 19004,
+        Gastronomia = 19005,
+        GraficasEImpressao = 19006,
+        Lar = 19007,
+        MarketingEInternet = 19008,
+        OutrosProfissionais = 19009,
+        OutrosServicos = 19010,
+        Saude = 19011,
+        SuporteTecnico = 19012,
+        VeIculosETransportes = 19013,
+        Vestuario = 19014,
+        ViagensETurismo = 19015,
+
 
 
     }
