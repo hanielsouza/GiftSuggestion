@@ -24,7 +24,7 @@ namespace GiftSuggestion.Controllers
         public async Task<IActionResult> Post([FromBody] GiftModel model)
         {
             var giftCadastrado = await _giftBusiness.Cadastrar(model);
-            return Ok(giftCadastrado); // adicionar uma mensagem indicando que o nome foi cadastrado
+            return Ok($"{giftCadastrado.Nome} Cadastrado com sucesso!"); // adicionar uma mensagem indicando que o nome foi cadastrado
         }
     }
 }
