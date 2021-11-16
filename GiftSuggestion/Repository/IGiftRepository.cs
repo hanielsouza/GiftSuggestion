@@ -1,11 +1,10 @@
 ﻿using GiftSuggestion.Models;
+using System.Threading.Tasks;
 
 namespace GiftSuggestion.Repository
 {
-    interface IGiftRepository
+    public interface IGiftRepository
     {
-        //Criar o método crud para gravar os dados na base
-
-        void Gravar(GiftModel gift);
+        Task<GiftModel> Gravar(GiftModel gift);
     }
 }

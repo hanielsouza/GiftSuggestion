@@ -1,4 +1,5 @@
 ﻿using GiftSuggestion.Models;
+using GiftSuggestion.Repository;
 using System;
 using System.Threading.Tasks;
 
@@ -6,11 +7,16 @@ namespace GiftSuggestion.Business.Implementations
 {
     public class GiftBusinessImplementations : IGiftBusiness
     {
-        //Criar construtor e injetar o repository
+        private readonly IGiftRepository _repository;
+
+        public GiftBusinessImplementations(IGiftRepository repository)
+        {
+            _repository = repository;
+        }
 
         public async Task<GiftModel> Cadastrar(GiftModel model)
         {
-            throw new NotImplementedException();//chamar o método de gravr do repository e retornar o dado gravado
+            return await _repository.Gravar(model);
         }
         
     }

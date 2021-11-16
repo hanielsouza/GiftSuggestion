@@ -8,9 +8,9 @@ namespace GiftSuggestion.Repository
 {
     public class GiftImplementation : IGiftRepository
     {
-        public void Gravar(GiftModel gift)
+        public async Task<GiftModel> Gravar(GiftModel gift)
         {
-           
+            return new GiftModel();
         }
     }
 }

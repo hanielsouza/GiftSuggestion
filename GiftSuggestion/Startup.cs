@@ -1,5 +1,6 @@
 using GiftSuggestion.Business;
 using GiftSuggestion.Business.Implementations;
+using GiftSuggestion.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -36,6 +37,7 @@ namespace GiftSuggestion
             });
 
             services.AddScoped<IGiftBusiness, GiftBusinessImplementations>();
+            services.AddScoped<IGiftRepository, GiftImplementation>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
