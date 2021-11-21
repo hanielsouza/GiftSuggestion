@@ -3,7 +3,7 @@
     public class GiftModel
     {
         public int Id { get; private set; }
-        public string Nome { get;set }
+        public string Nome { get; set; }
         public CategoriaEnum Categoria { get; set; }
         public SubcategoriaEnum Subcategoria { get; set; }
         public PublicoAlvoEnum PublicoAlvo { get; set; }
