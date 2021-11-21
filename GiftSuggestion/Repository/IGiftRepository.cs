@@ -1,4 +1,6 @@
 ﻿using GiftSuggestion.Models;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace GiftSuggestion.Repository
 {
@@ -6,6 +8,8 @@ namespace GiftSuggestion.Repository
     {
         //Criar o método crud para gravar os dados na base
 
-        void Gravar(GiftModel gift);
+
+
+        Task<int> Gravar(GiftModel gift);
     }
 }
